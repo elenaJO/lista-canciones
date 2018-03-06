@@ -15,7 +15,7 @@ class MusicApp extends Component {
           />
           <Music
          artista = 'Thalia'
-         canciones = {['Equivocada','Desde esa noche','A quien le importa']}
+         canciones = {['Equivocada','Desde esa noche','A quien le importa','cielo']}
          img = 'thalia.jpg'
          /> 
       </div>
