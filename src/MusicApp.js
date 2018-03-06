@@ -12,7 +12,12 @@ class MusicApp extends Component {
           canciones = {['ojos Asi','Inevitable','tu']}
           img = 'shakira.jpg'
           bio = 'Shakira Isabel Mebarak Ripoll​​ es una cantautora, productora discográfica, bailarina, modelo, empresaria, actriz, embajadora de buena voluntad de la UNICEF y filántropa colombiana'
-          /> 
+          />
+          <Music
+         artista = 'Thalia'
+         canciones = {['Equivocada','Desde esa noche','A quien le importa']}
+         img = 'thalia.jpg'
+         /> 
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import './Music.css'
+import './Music.css';
+import PropTypes from 'prop-types'
 
 class Music extends Component {
  render(){
@@ -22,5 +23,13 @@ class Music extends Component {
      )
  }
 }
+
+Music.propTypes = {
+    artista: PropTypes.string.isRequired,
+  };
+  
+ Music.defaultProps = {
+    bio: 'default no tiene biografia',
+  };
 
 export default Music;
